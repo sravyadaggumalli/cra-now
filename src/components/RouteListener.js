@@ -5,7 +5,7 @@ import { withRouter } from "react-router-dom";
 const pathEngIdMapping = [
   { path: "/about", engId: 1601333430 },
   { path: "/topics", engId: 1601333430 },
-  { path: "/", engId: 1601334330 }
+  { path: "/", engId: 1601333430 }
 ];
 
 const Listener = withRouter(
@@ -40,7 +40,7 @@ const Listener = withRouter(
               }
             ],
             taglets: {
-              rendererStub: { divIdsToKeep: { home: true } }
+              rendererStub: { divIdsToKeep: { "lp-chat": true } }
             }
           });
         }

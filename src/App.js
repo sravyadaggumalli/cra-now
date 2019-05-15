@@ -13,6 +13,7 @@ class App extends Component {
         <RouterListener>
           <div className="App">
             <header className="App-header">
+              <div id="lp-chat" />
               <ul>
                 <li>
                   <Link to="/" className="App-link">
