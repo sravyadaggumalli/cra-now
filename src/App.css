@@ -30,3 +30,9 @@
     transform: rotate(360deg);
   }
 }
+
+#lp-chat {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
